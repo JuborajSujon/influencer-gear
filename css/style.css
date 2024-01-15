@@ -164,3 +164,90 @@ a {
 .popular-brand img-item {
   flex: 1 1 20%;
 }
+
+/* Popular collection section  start*/
+.popular-collection-section {
+  padding: 3rem 0;
+}
+
+.popular-collection .popular-collection-items {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.popular-collection h2 {
+  color: #3a3a3a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.popular-collection-card {
+  border-radius: 0.375rem;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+}
+
+.popular-collection-card .card-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.375rem;
+}
+
+.popular-collection-card .card-content h3 {
+  color: #18191f;
+  font-feature-settings: "liga" off;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-top: 1rem;
+}
+
+.popular-collection-card .card-content h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.card-content .rating i {
+  color: #fb8200;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.popular-collection-card .card-content p {
+  color: #787885;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: 0.252px;
+  padding: 1rem 0;
+}
+
+.see-more-btn {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.see-more-btn a {
+  color: var(--secondary-color);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.5rem;
+  background-color: var(--clr-white);
+  cursor: pointer;
+}
+
+.see-more-btn a:hover {
+  background-color: var(--secondary-color);
+  color: var(--clr-white);
+}

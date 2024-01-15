@@ -19,6 +19,11 @@
   .hero-section .container {
     max-width: 90%;
   }
+
+  /* popular collection section*/
+  .popular-collection .popular-collection-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Tablet Media Query */
@@ -93,6 +98,15 @@
   .popular-brand img {
     flex: 1 1 12%;
     padding: 0.5rem;
+  }
+
+  /* popular collection section */
+  .popular-collection-section .container {
+    width: 84%;
+  }
+
+  .popular-collection .popular-collection-items {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
