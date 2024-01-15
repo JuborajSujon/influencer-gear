@@ -74,11 +74,26 @@
     bottom: 0;
     left: 0;
   }
+
+  /* Brand Section */
+  .popular-brand img {
+    flex: 1 1 17%;
+    padding: 1rem;
+  }
 }
 
 /* Laptop / Desktop Media Query */
 
 @media only screen and (min-width: 992px) {
+  /* Brand Section */
+
+  .popular-brand {
+    gap: 3rem;
+  }
+  .popular-brand img {
+    flex: 1 1 12%;
+    padding: 0.5rem;
+  }
 }
 
 /* Large Media Query */

@@ -147,3 +147,20 @@ a {
   background-color: var(--secondary-color);
   cursor: pointer;
 }
+
+/* Brand Section start */
+.popular-brand-section {
+  padding: 1rem 0;
+}
+
+.popular-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.popular-brand img-item {
+  flex: 1 1 20%;
+}
