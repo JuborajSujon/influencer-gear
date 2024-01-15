@@ -17,6 +17,9 @@
   --clr-white: #fff;
   --clr-black: #000;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -44,4 +47,103 @@ a {
 .container {
   max-width: 84%;
   margin: 0 auto;
+}
+
+/* Header section */
+.header-section {
+  padding: 3rem 0;
+  text-align: center;
+}
+/* Navbar Section*/
+.logo a {
+  display: block;
+  color: var(--primary-color);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.nav-container ul {
+  padding: 1rem 0;
+}
+
+.nav-items li {
+  color: var(--primary-color);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav-container .nav-items li a {
+  display: inline-block;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.nav-container .nav-items li a:hover {
+  background-color: var(--secondary-color);
+  color: var(--clr-white);
+}
+
+.nav-container .nav-items li a.active {
+  background-color: var(--secondary-color);
+  color: var(--clr-white);
+}
+
+/* Hero section */
+.hero-section {
+  padding: 3rem 0;
+}
+
+.hero-section .container .hero-img {
+  padding: 3rem 0;
+  background: var(--clr-slate-100);
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 90%;
+  border-radius: 0.5rem;
+}
+
+.hero-section .container .hero-img img {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.hero-content {
+  max-height: fit-content;
+}
+
+.hero-content h1 {
+  color: var(--primary-color);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.hero-content p {
+  color: var(--primary-color);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem 0 2.5rem;
+}
+.hero-content .hero-btn {
+  color: var(--clr-white);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline;
+  text-align: center;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.5rem;
+  background-color: var(--secondary-color);
+  cursor: pointer;
 }
